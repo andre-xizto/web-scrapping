@@ -1,5 +1,5 @@
 import { Injectable, InternalServerErrorException, Logger } from '@nestjs/common';
-import { scrapeEvents } from '../../scrapper';
+import { scrapeEvents } from '../scrapper';
 
 @Injectable()
 export class ScrapperService {
